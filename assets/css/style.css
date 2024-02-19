@@ -545,9 +545,6 @@ nav.navbar.bootsnav .navbar-toggle i {
     margin-right: 0 !important;    
 }
 
-.single-list-topics-content h2>a {
-    margin: 13px 0;
-}
 
 .column {
     width: 50%;
@@ -1411,7 +1408,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 .Icones-style {
     text-align: center;
-    font-size: 15px !important;
+    font-size: 22px !important;
 }
 
 .LogoClass {
@@ -1527,8 +1524,8 @@ nav.navbar.bootsnav .navbar-toggle i {
     margin-top: -1px;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
-    color: #bebebe;
-    font-size: 14px;
+    color: #dfdada;
+    font-size: 18px;
     letter-spacing: 0;
     line-height: normal;
     overflow: hidden;
@@ -2239,6 +2236,108 @@ nav.navbar.bootsnav .navbar-toggle i {
         margin-top: 164px;
     }
 
+    .card-slider {
+        animation: scroll 5s linear infinite !important;
+      }
+
+      .list-topics-content{
+        margin-top: -80px !important;
+      }
+
 }
 
+
+
+
+
+
+
+
+.card-slider-container {
+    overflow: hidden;
+  }
+  
+  .card-slider {
+    display: flex;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .card {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+.fa-briefcase-medical{
+    font-size: 40px;
+    color: #1071e0;
+}
+
+.fa-scale-balanced{
+    font-size: 40px;
+    color: #10afe0;
+    text-align: center;
+}
+
+
+.Icones-style{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+
+.flaticon-transport{
+    font-size: 20px!important;
+}
+
+.fa-bed-pulse{
+    font-size: 40px!important;  
+    color: rgb(69, 206, 247) ;
+}
+
+.fa-cloud-sun-rain{
+    font-size: 40px !important;
+}
+
+
+.list-topics-content {
+    display: flex;
+    justify-content: center;
+}
+
+.card-slider {
+    display: flex;
+}
+
+.card {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+.single-list-topics-content {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-evenly;
+}
+
+.single-list-topics-icon {
+    margin-top: 20px; /* تعديل حسب الحاجة */
+}
+
+.Icones-style {
+    text-align: center;
+    margin-top: 5px; /* تعديل حسب الحاجة */
+}
 /*========================Thank you=================
